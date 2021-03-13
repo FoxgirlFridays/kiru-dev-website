@@ -1,0 +1,108 @@
+* {box-sizing: border-box}
+
+a:link {
+    color: #88C0D0;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #81A1C1;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #A3BE8C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #81A1C1;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Noto Sans;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #3b4252;
+  color: #ECEFF4;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 25px;
+  width: 20%;
+
+
+}
+
+.tablink:hover {
+  background-color: #434c5e;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #ECEFF4;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+
+}
+
+p, h3 {
+    text-indent: 100px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #3B4252;
+    color: #ECEFF4;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: middle;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #2E3440;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #434C5E;
+    display: none;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+#home {background-color: #5E81AC;}
+#mcsv {background-color: #5E81AC;}
+#projects {background-color: #5E81AC;}
+#distro {background-color: #5E81AC;}
+#contact {background-color: #5E81AC;}
+
+font-family: 'Noto Sans', sans-serif;
